@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "OrtReactNativeBasicUsage",
+    "slug": "OrtReactNativeBasicUsage",
+    "plugins": [
+      "onnxruntime-react-native",
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone."
+        }
+      ]
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ai.onnxruntime.example.reactnative.basicusage"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "ai.onnxruntime.example.reactnative.basicusage"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "28567db9-c97c-4e68-8c7f-2f4dd03fa868"
+      }
+    }
+  }
+}
