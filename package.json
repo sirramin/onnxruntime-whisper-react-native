@@ -6,7 +6,8 @@
     "android": "npx expo run:android",
     "ios": "npx expo run:ios",
     "web": "npx expo start --web",
-    "eject": "npx expo eject"
+    "eject": "npx expo eject",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "buffer": "^6.0.3",
@@ -26,7 +27,9 @@
     "@babel/core": "^7.20.20",
     "@types/react": "~18.2.21",
     "@types/react-native": "~0.72.2",
-    "typescript": "~4.8.4"
+    "typescript": "~4.8.4",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0"
   },
   "private": true,
   "onnxruntimeExtensionsEnabled": "true"
